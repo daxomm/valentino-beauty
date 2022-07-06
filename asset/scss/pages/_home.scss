@@ -246,7 +246,6 @@
       .txt{
         display: inline-block;
         padding: 0 10px;
-
       }
     }
 
@@ -540,34 +539,25 @@
     }
 
     .icon-prom{
+      width: 35px;
+      height: 35px;
+      object-fit: contain;
+      margin-bottom: 1rem;
+      display: inline-block;
+
       &.item1{
         background: url(../images/icon/icon1.webp) no-repeat;
         background-size: 35px 35px;
-        width: 35px;
-        height: 35px;
-        object-fit: contain;
-        margin-bottom: 1rem;
-        display: inline-block;
       }
 
       &.item2{
         background: url(../images/icon/icon2.webp) no-repeat;
         background-size: 35px 35px;
-        width: 35px;
-        height: 35px;
-        object-fit: contain;
-        margin-bottom: 1rem;
-        display: inline-block;
       }
 
       &.item3{
         background: url(../images/icon/icon3.webp) no-repeat;
         background-size: 35px 35px;
-        width: 35px;
-        height: 35px;
-        object-fit: contain;
-        margin-bottom: 1rem;
-        display: inline-block;
       }
     }
   }

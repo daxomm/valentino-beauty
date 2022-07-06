@@ -454,11 +454,13 @@ input::-webkit-inner-spin-button, input::-webkit-outer-spin-button, textarea::-w
 
 .sc-promises .prom-list .prom-box-wrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; gap: 1.2rem; width: 100%; }
 
-.sc-promises .prom-list .icon-prom.item1 { background: url(../images/icon/icon1.webp) no-repeat; background-size: 35px 35px; width: 35px; height: 35px; -o-object-fit: contain; object-fit: contain; margin-bottom: 1rem; display: inline-block; }
+.sc-promises .prom-list .icon-prom { width: 35px; height: 35px; -o-object-fit: contain; object-fit: contain; margin-bottom: 1rem; display: inline-block; }
 
-.sc-promises .prom-list .icon-prom.item2 { background: url(../images/icon/icon2.webp) no-repeat; background-size: 35px 35px; width: 35px; height: 35px; -o-object-fit: contain; object-fit: contain; margin-bottom: 1rem; display: inline-block; }
+.sc-promises .prom-list .icon-prom.item1 { background: url(../images/icon/icon1.webp) no-repeat; background-size: 35px 35px; }
 
-.sc-promises .prom-list .icon-prom.item3 { background: url(../images/icon/icon3.webp) no-repeat; background-size: 35px 35px; width: 35px; height: 35px; -o-object-fit: contain; object-fit: contain; margin-bottom: 1rem; display: inline-block; }
+.sc-promises .prom-list .icon-prom.item2 { background: url(../images/icon/icon2.webp) no-repeat; background-size: 35px 35px; }
+
+.sc-promises .prom-list .icon-prom.item3 { background: url(../images/icon/icon3.webp) no-repeat; background-size: 35px 35px; }
 
 .sc-etc { margin: 4rem auto; padding: 0 4rem; }
 

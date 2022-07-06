@@ -384,9 +384,9 @@ input::-webkit-inner-spin-button, input::-webkit-outer-spin-button, textarea::-w
 
 .campaign-area .control-box { position: absolute; bottom: 0; right: 0; padding: 2rem; z-index: 10; font-weight: 600; font-size: 1.2rem; }
 
-.campaign-area .control-box a { display: none; }
+.campaign-area .control-box .control { display: none; }
 
-.campaign-area .control-box a.active { display: block; }
+.campaign-area .control-box .control.active { display: block; }
 
 .brand-area { background: #fff; }
 

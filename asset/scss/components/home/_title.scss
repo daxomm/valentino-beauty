@@ -1,0 +1,23 @@
+.sc-title{
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 130%;
+  letter-spacing: .04em;
+  display: flex;
+  justify-content: space-between;
+
+  .sc-product &{
+    padding: 0 4rem;
+    margin-bottom: 3rem;
+  }
+
+  .sc-etc &{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+}

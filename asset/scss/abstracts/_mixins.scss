@@ -1,0 +1,46 @@
+@mixin ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@mixin multi-ellipsis($font-size, $line-height, $lines) {
+    font-size: $font-size;
+    line-height: $line-height;
+    max-height: $line-height * $lines;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: $lines;
+    -webkit-box-orient: vertical; /* autoprefixer: off */
+}
+
+@mixin no-scrollbar{
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    &::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera*/
+    }
+}
+
+/* $mobile : 767px;
+$tablet : 1023px; */
+/* $pc : 960px; */
+
+
+/* @mixin mobile{
+    @media (max-width: $mobile){
+      @content;
+    }
+}
+
+@mixin tablet{
+    @media (max-width: $tablet){
+      @content;
+    }
+} */
+
+/* @mixin pc{
+    @media (max-width: $pc){
+      @content;
+    }
+} */

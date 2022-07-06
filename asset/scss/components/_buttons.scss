@@ -1,0 +1,136 @@
+.btn{
+  display: block;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  height: 4rem;
+  border-radius: 20px;
+  padding: 1.4rem 3.45rem 1.1rem;
+  background: #fff;
+  line-height: 120%;
+  width: 20rem;
+}
+
+.btn-detail{
+  font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: .04em;
+    text-decoration: underline;
+
+    &:hover{
+      opacity: .7;
+      text-decoration: underline;
+    }
+}
+
+////////////////////
+.prd-wrap{
+
+  .img-box{
+    position: relative;
+    display: block;
+
+    img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.info-wrap{
+  background: #fff;
+  padding: 2rem;
+  height: 100%;
+}
+
+.brand-name{
+  margin: 0;
+  font-style: normal;
+  font-size: 1.4rem;
+  letter-spacing: .05em;
+  line-height: 130%;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.prd-box{
+  display: block;
+  margin-top: 4px;
+  margin-bottom: 2rem;
+}
+
+.prd-name{
+  margin-right: 2rem;
+  text-transform: lowercase;
+  font-size: 1.3rem;
+  letter-spacing: 0.01rem;
+}
+
+.prd-desc{
+  font-style: italic;
+  letter-spacing: -0.05rem;
+  font-size: 1.3rem;
+  text-transform: lowercase;
+}
+
+.btn-pric{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.1rem;
+  justify-content: space-between;
+  line-height: 1;
+  padding: 1.2rem;
+  white-space: nowrap;
+  width: 100%;
+  border: 1px solid #97969a;
+  border-radius: 5rem;
+  color: #2D2A3E;
+  font-weight:bold;
+  letter-spacing: 0.1rem;
+  transition: 0.5s;
+
+
+  &:hover{
+    background: #000;
+    opacity: 0.9;
+    color: #fff;
+  }
+
+  .ori-prc {
+    text-decoration: line-through;
+    opacity: .5;
+    padding-left: 1rem;
+  }
+
+  .curr-prc {
+    display: inline-block;
+  }
+
+  .add{
+    padding-right: 1rem;
+    letter-spacing: 0.04rem;
+    font-size: 1.15rem;
+  }
+}
+
+///////////////////////////
+
+.inner-wrap{
+  padding: 0 4rem;
+  max-width: 144rem;
+  margin: 0 auto;
+}
+
+ 
+
+

@@ -1,0 +1,22 @@
+// common의 용도
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+}
+
+.hidden,
+[hidden] {
+    display: none !important;
+}
+
+/* .sp-bg{
+    content: '';
+        display: block;
+        background: url(../images/icon/common_layout.png) no-repeat;
+        background-size: 100px auto;
+}
+ */

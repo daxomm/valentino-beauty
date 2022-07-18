@@ -153,7 +153,7 @@ input::-webkit-inner-spin-button, input::-webkit-outer-spin-button, textarea::-w
 
 .top-area .nav-area .link-sub { margin: 0.4rem 0; display: inline-block; position: relative; line-height: 150%; }
 
-.top-area .nav-area .link-sub:after { content: ''; display: inline-block; position: absolute; left: 0; bottom: 0; width: 100%; height: 1.5px; background-color: #000; -webkit-transform-origin: 100% 50%; transform-origin: 100% 50%; -webkit-transform: scale(0, 1); transform: scale(0, 1); -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.36, 0.14, 0, 1); transition: -webkit-transform 0.6s cubic-bezier(0.36, 0.14, 0, 1); transition: transform 0.6s cubic-bezier(0.36, 0.14, 0, 1); transition: transform 0.6s cubic-bezier(0.36, 0.14, 0, 1), -webkit-transform 0.6s cubic-bezier(0.36, 0.14, 0, 1); }
+.top-area .nav-area .link-sub:after { content: ''; display: inline-block; position: absolute; left: 0; bottom: 0; width: 100%; height: 1.5px; background-color: #000; -webkit-transform-origin: 100% 50%; transform-origin: 100% 50%; -webkit-transform: scale(0, 1); transform: scale(0, 1); -webkit-transition: -webkit-transform 0.6s; transition: -webkit-transform 0.6s; transition: transform 0.6s; transition: transform 0.6s, -webkit-transform 0.6s; }
 
 .top-area .nav-area .link-sub:hover:after { -webkit-transform-origin: 0% 50%; transform-origin: 0% 50%; -webkit-transform: scale(1, 1); transform: scale(1, 1); }
 
@@ -348,7 +348,7 @@ input::-webkit-inner-spin-button, input::-webkit-outer-spin-button, textarea::-w
 
 .sc-magazine .btn-detail .text { display: inline-block; position: relative; text-decoration: underline; }
 
-.sc-magazine .btn-detail .text:after { content: ''; position: absolute; left: 0; bottom: 2px; width: 100%; height: 1px; background-color: #000; -webkit-transform-origin: 100% 50%; transform-origin: 100% 50%; -webkit-transform: scale(0, 1); transform: scale(0, 1); -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.36, 0.14, 0, 1); transition: -webkit-transform 0.5s cubic-bezier(0.36, 0.14, 0, 1); transition: transform 0.5s cubic-bezier(0.36, 0.14, 0, 1); transition: transform 0.5s cubic-bezier(0.36, 0.14, 0, 1), -webkit-transform 0.5s cubic-bezier(0.36, 0.14, 0, 1); }
+.sc-magazine .btn-detail .text:after { content: ''; position: absolute; left: 0; bottom: 2px; width: 100%; height: 1px; background-color: #000; -webkit-transform-origin: 100% 50%; transform-origin: 100% 50%; -webkit-transform: scale(0, 1); transform: scale(0, 1); -webkit-transition: -webkit-transform 0.5s; transition: -webkit-transform 0.5s; transition: transform 0.5s; transition: transform 0.5s, -webkit-transform 0.5s; }
 
 .sc-magazine .btn-detail .text:hover { text-decoration: none; }
 

@@ -312,7 +312,7 @@ input::-webkit-inner-spin-button, input::-webkit-outer-spin-button, textarea::-w
 
 .sc-product .product { padding: 0 4rem 3.7rem; }
 
-.sc-product .img-box { padding-bottom: calc(375/325 * 100%); position: relative; }
+.sc-product .img-box { padding-bottom: 100%; position: relative; }
 
 .sc-product .img-box img { -o-object-fit: contain; object-fit: contain; }
 
@@ -410,7 +410,7 @@ input::-webkit-inner-spin-button, input::-webkit-outer-spin-button, textarea::-w
 
 .sc-best .best-seller { position: absolute; top: 50%; left: 25%; -webkit-transform: translate(-25%, -50%); transform: translate(-25%, -50%); width: 325px; }
 
-.sc-best .link-best { display: block; position: relative; padding-bottom: calc((664/650) * 100%); }
+.sc-best .link-best { display: block; position: relative; padding-bottom: 100%; }
 
 .sc-best .link-best img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; -webkit-transition: 0.3s; transition: 0.3s; -o-object-fit: cover; object-fit: cover; }
 
@@ -470,7 +470,7 @@ input::-webkit-inner-spin-button, input::-webkit-outer-spin-button, textarea::-w
 
 .sc-etc .etc-wrap .etc-list .etc-item { width: calc((100% - 20px) / 2); }
 
-.sc-etc .etc-wrap .etc-list .etc-item .prd-wrap .img-box { padding-bottom: calc(332/325 * 100%); position: relative; }
+.sc-etc .etc-wrap .etc-list .etc-item .prd-wrap .img-box { padding-bottom: 100%; position: relative; }
 
 .sc-etc .etc-wrap .etc-list .etc-item .prd-wrap .img-box .back { position: absolute; top: 0; left: 0; width: 100%; height: 100%; visibility: hidden; opacity: 0; -webkit-transition: 0.3s; transition: 0.3s; }
 
@@ -500,7 +500,7 @@ input::-webkit-inner-spin-button, input::-webkit-outer-spin-button, textarea::-w
 
 .sc-feed .feed-list .feed-item { margin: 4px; width: 25%; position: relative; }
 
-.sc-feed .feed-list .feed-item .link-feed { position: relative; display: block; padding-bottom: calc(272/264 * 100%); }
+.sc-feed .feed-list .feed-item .link-feed { position: relative; display: block; padding-bottom: 100%; }
 
 .sc-feed .feed-list .feed-item .link-feed img { width: 100%; height: 100%; position: absolute; top: 0; left: 0; bottom: 0; right: 0; -o-object-fit: cover; object-fit: cover; }
 
